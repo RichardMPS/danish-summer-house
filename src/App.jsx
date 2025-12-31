@@ -27,10 +27,9 @@ const DanishSummerHouse = () => {
   const galleryImages = [
     '/danish-summer-house/images/_MG_3014.jpg',
     '/danish-summer-house/images/SOLKROGENPHOTO.jpg',
-    '/danish-summer-house/images/_a0a2586-2-edit.jpg',
     '/danish-summer-house/images/_A0A2613-Pano.jpg',
+    '/danish-summer-house/images/_a0a2586-2-edit.jpg',
     '/danish-summer-house/images/_A0A2591-2-Edit 2.jpg',
-    '/danish-summer-house/images/_A0A2894-Edit.jpg',
     '/danish-summer-house/images/_A0A2903-Edit.jpg',
     '/danish-summer-house/images/_A0A2907-Edit-2.jpg',
     '/danish-summer-house/images/_A0A2929.jpg',
@@ -39,6 +38,7 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/_A0A3414.jpg',
     '/danish-summer-house/images/_A0A6778.jpg',
     '/danish-summer-house/images/_A0A2607.jpg',
+    '/danish-summer-house/images/_A0A2894-Edit.jpg',
     '/danish-summer-house/images/_A0A7144-Edit 2.jpg',
     '/danish-summer-house/images/_A0A7246.jpg',
     '/danish-summer-house/images/_A0A7264-HDR.jpg',
@@ -81,7 +81,6 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/Q1010450-Edit-2.jpg',
     '/danish-summer-house/images/RML07462.jpg',
     '/danish-summer-house/images/RML08037.jpg',
-    '/danish-summer-house/images/Screenshot 2024-11-25 at 17.08.46.jpg',
     '/danish-summer-house/images/Screenshot 2024-11-25 at 17.10.21.jpg',
   ];
 
