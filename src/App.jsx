@@ -22,16 +22,67 @@ const DanishSummerHouse = () => {
     }
   };
 
-  // Gallery images (placeholder - you'll replace with actual images)
+  // Gallery images - EDIT THIS ARRAY to reorder, remove, or change photos
+  // To reorder: move lines up/down, To remove: delete the line, To change title: edit the text
   const galleryImages = [
-    { id: 1, title: 'Sea View Dining Room', category: 'interior' },
-    { id: 2, title: 'Ocean View from Garden', category: 'exterior' },
-    { id: 3, title: 'Modern Living Area', category: 'interior' },
-    { id: 4, title: 'Master Bedroom', category: 'interior' },
-    { id: 5, title: 'Garden and Beach Access', category: 'exterior' },
-    { id: 6, title: 'Kitchen', category: 'interior' },
-    { id: 7, title: 'Outdoor Seating', category: 'exterior' },
-    { id: 8, title: 'Bathroom', category: 'interior' },
+    '/images/_a0a2586-2-edit.jpg',
+    '/images/_A0A2591-2-Edit 2.jpg',
+    '/images/_A0A2607.jpg',
+    '/images/_A0A2613-Pano.jpg',
+    '/images/_A0A2894-Edit.jpg',
+    '/images/_A0A2903-Edit.jpg',
+    '/images/_A0A2907-Edit-2.jpg',
+    '/images/_A0A2919.jpg',
+    '/images/_A0A2929.jpg',
+    '/images/_a0a2931.jpg',
+    '/images/_A0A3414.jpg',
+    '/images/_A0A6778.jpg',
+    '/images/_A0A7144-Edit 2.jpg',
+    '/images/_A0A7246.jpg',
+    '/images/_A0A7264-HDR.jpg',
+    '/images/_A0A9528-2.jpg',
+    '/images/_A0A9530.jpg',
+    '/images/_A0A9536-2.jpg',
+    '/images/_A0A9631-2.jpg',
+    '/images/_MG_2850.jpg',
+    '/images/_MG_2863-Edit.jpg',
+    '/images/_MG_2877-Edit-2-Edit.jpg',
+    '/images/_MG_2898-Edit 2.jpg',
+    '/images/_MG_2945.jpg',
+    '/images/_MG_2955.jpg',
+    '/images/_MG_3014.jpg',
+    '/images/_MG_3135.jpg',
+    '/images/_MG_3391-Edit.jpg',
+    '/images/_MG_3465.jpg',
+    '/images/_MG_7971.jpg',
+    '/images/_MG_8632.jpg',
+    '/images/_RML7063-Edit.jpg',
+    '/images/_RML7127.jpg',
+    '/images/_RML9849-HDR.jpg',
+    '/images/_RML9851-HDR.jpg',
+    '/images/_RML9867.jpg',
+    '/images/_RML9868.jpg',
+    '/images/_RML9877.jpg',
+    '/images/_RML9887.jpg',
+    '/images/_RML9889.jpg',
+    '/images/20111020155401061.jpg',
+    '/images/annexeplan.jpg',
+    '/images/DJI_0212-3.jpg',
+    '/images/IMG_1268.jpg',
+    '/images/IMG_1578.jpg',
+    '/images/IMG_2554.jpg',
+    '/images/IMG_5028.jpg',
+    '/images/IMG_9894.jpg',
+    '/images/Q1010029.jpg',
+    '/images/Q1010384.jpg',
+    '/images/Q1010388.jpg',
+    '/images/Q1010389.jpg',
+    '/images/Q1010450-Edit-2.jpg',
+    '/images/RML07462.jpg',
+    '/images/RML08037.jpg',
+    '/images/Screenshot 2024-11-25 at 17.08.46.jpg',
+    '/images/Screenshot 2024-11-25 at 17.10.21.jpg',
+    '/images/SOLKROGENPHOTO.jpg'
   ];
 
   // Testimonials data
@@ -219,9 +270,8 @@ const DanishSummerHouse = () => {
       {/* Hero Section with Video */}
       <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
 
-        {/* Video Background - Placeholder */}
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900 via-blue-600 to-blue-400">
-          {/* You can replace this with actual video:
+        {/* Video Background */}
+        <div className="absolute inset-0">
           <video
             autoPlay
             loop
@@ -229,16 +279,12 @@ const DanishSummerHouse = () => {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/path-to-your-video.mp4" type="video/mp4" />
+            <source src="/videos/hero-video.mp4" type="video/mp4" />
           </video>
-          */}
-
-          {/* Placeholder gradient background */}
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJwYXR0ZXJuIiB4PSIwIiB5PSIwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjEiIGZpbGw9IiNmZmYiIG9wYWNpdHk9IjAuMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNwYXR0ZXJuKSIvPjwvc3ZnPg==')] opacity-30"></div>
         </div>
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
 
         {/* Hero Content */}
         <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
@@ -459,37 +505,41 @@ const DanishSummerHouse = () => {
             </p>
           </div>
 
-          {/* Video Placeholder */}
+          {/* Video Section */}
           <div className="mb-16">
-            <div className="bg-gradient-to-br from-blue-900 to-blue-600 rounded-3xl overflow-hidden shadow-2xl aspect-video flex items-center justify-center">
-              <div className="text-center text-white">
-                <Camera className="w-20 h-20 mx-auto mb-4 opacity-50" />
-                <p className="text-2xl font-semibold mb-2">Video Tour</p>
-                <p className="text-blue-100">Video content can be embedded here</p>
-              </div>
+            <div className="rounded-3xl overflow-hidden shadow-2xl aspect-video">
+              <video
+                controls
+                className="w-full h-full object-cover"
+                poster="/images/DJI_0212-3.jpg"
+              >
+                <source src="/videos/hero-video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
+            <p className="text-center text-gray-600 mt-4 text-lg">
+              Video tour of the property and surrounding area
+            </p>
           </div>
 
           {/* Photo Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {galleryImages.map((image, index) => (
+            {galleryImages.map((imagePath, index) => (
               <div
-                key={image.id}
+                key={index}
                 onClick={() => {
                   setLightboxImage(index);
                   setLightboxOpen(true);
                 }}
-                className="relative aspect-square bg-gradient-to-br from-blue-200 to-blue-400 rounded-2xl overflow-hidden cursor-pointer group shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
+                className="relative aspect-square rounded-2xl overflow-hidden cursor-pointer group shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
               >
-                {/* Placeholder for actual images */}
-                <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-300 to-blue-500 group-hover:scale-110 transition-transform duration-500">
-                  <Camera className="w-16 h-16 text-white opacity-30" />
-                </div>
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all flex items-end p-6">
-                  <p className="text-white font-semibold text-lg opacity-0 group-hover:opacity-100 transition-opacity">
-                    {image.title}
-                  </p>
-                </div>
+                {/* Actual image */}
+                <img
+                  src={imagePath}
+                  alt={`Property photo ${index + 1}`}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all"></div>
               </div>
             ))}
           </div>
@@ -752,12 +802,15 @@ const DanishSummerHouse = () => {
             <ChevronLeft className="w-12 h-12" />
           </button>
 
-          <div className="max-w-6xl max-h-[90vh] bg-gradient-to-br from-blue-300 to-blue-500 rounded-2xl aspect-video flex items-center justify-center">
-            <div className="text-center text-white">
-              <Camera className="w-32 h-32 mx-auto mb-4 opacity-50" />
-              <p className="text-3xl font-semibold mb-2">{galleryImages[lightboxImage].title}</p>
-              <p className="text-blue-100">Image {lightboxImage + 1} of {galleryImages.length}</p>
-            </div>
+          <div className="max-w-6xl max-h-[90vh] relative">
+            <img
+              src={galleryImages[lightboxImage]}
+              alt={`Property photo ${lightboxImage + 1}`}
+              className="max-w-full max-h-[90vh] rounded-2xl object-contain"
+            />
+            <p className="text-white text-center mt-4 text-lg">
+              Image {lightboxImage + 1} of {galleryImages.length}
+            </p>
           </div>
 
           <button
