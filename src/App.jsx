@@ -25,8 +25,8 @@ const DanishSummerHouse = () => {
   // Gallery images - EDIT THIS ARRAY to reorder, remove, or change photos
   // To reorder: move lines up/down, To remove: delete the line, To change title: edit the text
   const galleryImages = [
-    '/danish-summer-house/images/_MG_3014.jpg'
-    '/danish-summer-house/images/SOLKROGENPHOTO.jpg'
+    '/danish-summer-house/images/_MG_3014.jpg',
+    '/danish-summer-house/images/SOLKROGENPHOTO.jpg',
     '/danish-summer-house/images/_a0a2586-2-edit.jpg',
     '/danish-summer-house/images/_A0A2613-Pano.jpg',
     '/danish-summer-house/images/_A0A2591-2-Edit 2.jpg',
