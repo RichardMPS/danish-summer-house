@@ -25,16 +25,15 @@ const DanishSummerHouse = () => {
   // Gallery images - EDIT THIS ARRAY to reorder, remove, or change photos
   // To reorder: move lines up/down, To remove: delete the line, To change title: edit the text
   const galleryImages = [
-    '/danish-summer-house/images/_MG_3014.jpg',
-    '/danish-summer-house/images/_A0A2907-Edit-2.jpg'
     '/danish-summer-house/images/_a0a2586-2-edit.jpg',
     '/danish-summer-house/images/_A0A2591-2-Edit 2.jpg',
+    '/danish-summer-house/images/_A0A2607.jpg',
     '/danish-summer-house/images/_A0A2613-Pano.jpg',
     '/danish-summer-house/images/_A0A2894-Edit.jpg',
     '/danish-summer-house/images/_A0A2903-Edit.jpg',
+    '/danish-summer-house/images/_A0A2907-Edit-2.jpg',
     '/danish-summer-house/images/_A0A2919.jpg',
     '/danish-summer-house/images/_A0A2929.jpg',
-    '/danish-summer-house/images/_A0A2607.jpg',
     '/danish-summer-house/images/_a0a2931.jpg',
     '/danish-summer-house/images/_A0A3414.jpg',
     '/danish-summer-house/images/_A0A6778.jpg',
@@ -51,6 +50,7 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/_MG_2898-Edit 2.jpg',
     '/danish-summer-house/images/_MG_2945.jpg',
     '/danish-summer-house/images/_MG_2955.jpg',
+    '/danish-summer-house/images/_MG_3014.jpg',
     '/danish-summer-house/images/_MG_3135.jpg',
     '/danish-summer-house/images/_MG_3391-Edit.jpg',
     '/danish-summer-house/images/_MG_3465.jpg',
@@ -770,14 +770,14 @@ const DanishSummerHouse = () => {
             {/* Google Map */}
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden h-[600px]">
               <iframe
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Jacobslystvej+25+Nakkehoved+Denmark&zoom=15"
+                src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&center=56.1148,12.3556&zoom=15&maptype=roadmap"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Property Location - Jacobslystvej 25 Nakkehoved"
+                title="Property Location - North Zealand Coast"
               ></iframe>
             </div>
           </div>
