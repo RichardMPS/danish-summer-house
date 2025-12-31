@@ -25,20 +25,18 @@ const DanishSummerHouse = () => {
   // Gallery images - EDIT THIS ARRAY to reorder, remove, or change photos
   // To reorder: move lines up/down, To remove: delete the line, To change title: edit the text
   const galleryImages = [
-    '/danish-summer-house/images/_MG_3014.jpg',
-    '/danish-summer-house/images/SOLKROGENPHOTO.jpg',
-    '/danish-summer-house/images/_A0A2613-Pano.jpg',
     '/danish-summer-house/images/_a0a2586-2-edit.jpg',
     '/danish-summer-house/images/_A0A2591-2-Edit 2.jpg',
+    '/danish-summer-house/images/_A0A2607.jpg',
+    '/danish-summer-house/images/_A0A2613-Pano.jpg',
+    '/danish-summer-house/images/_A0A2894-Edit.jpg',
     '/danish-summer-house/images/_A0A2903-Edit.jpg',
     '/danish-summer-house/images/_A0A2907-Edit-2.jpg',
-    '/danish-summer-house/images/_A0A2929.jpg',
     '/danish-summer-house/images/_A0A2919.jpg',
+    '/danish-summer-house/images/_A0A2929.jpg',
     '/danish-summer-house/images/_a0a2931.jpg',
     '/danish-summer-house/images/_A0A3414.jpg',
     '/danish-summer-house/images/_A0A6778.jpg',
-    '/danish-summer-house/images/_A0A2607.jpg',
-    '/danish-summer-house/images/_A0A2894-Edit.jpg',
     '/danish-summer-house/images/_A0A7144-Edit 2.jpg',
     '/danish-summer-house/images/_A0A7246.jpg',
     '/danish-summer-house/images/_A0A7264-HDR.jpg',
@@ -52,6 +50,7 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/_MG_2898-Edit 2.jpg',
     '/danish-summer-house/images/_MG_2945.jpg',
     '/danish-summer-house/images/_MG_2955.jpg',
+    '/danish-summer-house/images/_MG_3014.jpg',
     '/danish-summer-house/images/_MG_3135.jpg',
     '/danish-summer-house/images/_MG_3391-Edit.jpg',
     '/danish-summer-house/images/_MG_3465.jpg',
@@ -81,7 +80,9 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/Q1010450-Edit-2.jpg',
     '/danish-summer-house/images/RML07462.jpg',
     '/danish-summer-house/images/RML08037.jpg',
+    '/danish-summer-house/images/Screenshot 2024-11-25 at 17.08.46.jpg',
     '/danish-summer-house/images/Screenshot 2024-11-25 at 17.10.21.jpg',
+    '/danish-summer-house/images/SOLKROGENPHOTO.jpg'
   ];
 
   // Testimonials data
@@ -541,7 +542,16 @@ const DanishSummerHouse = () => {
                 {/* Actual image */}
                 <img
                   src={imagePath}
-                  alt={`Property photo ${index + 1}`}
+                  alt={`Beachfront summer house rental North Zealand Denmark - ${
+                    index % 8 === 0 ? 'sea view to Sweden' :
+                    index % 8 === 1 ? 'interior living space Gilleleje' :
+                    index % 8 === 2 ? 'garden and outdoor area' :
+                    index % 8 === 3 ? 'bedroom accommodation' :
+                    index % 8 === 4 ? 'kitchen and dining' :
+                    index % 8 === 5 ? 'bathroom facilities' :
+                    index % 8 === 6 ? 'exterior beachfront property' :
+                    'Danish coastal holiday home'
+                  }`}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all"></div>
@@ -858,7 +868,16 @@ const DanishSummerHouse = () => {
           <div className="max-w-6xl max-h-[90vh] relative">
             <img
               src={galleryImages[lightboxImage]}
-              alt={`Property photo ${lightboxImage + 1}`}
+              alt={`Beachfront summer house rental North Zealand Denmark - ${
+                lightboxImage % 8 === 0 ? 'sea view to Sweden' :
+                lightboxImage % 8 === 1 ? 'interior living space Gilleleje' :
+                lightboxImage % 8 === 2 ? 'garden and outdoor area' :
+                lightboxImage % 8 === 3 ? 'bedroom accommodation' :
+                lightboxImage % 8 === 4 ? 'kitchen and dining' :
+                lightboxImage % 8 === 5 ? 'bathroom facilities' :
+                lightboxImage % 8 === 6 ? 'exterior beachfront property' :
+                'Danish coastal holiday home'
+              }`}
               className="max-w-full max-h-[90vh] rounded-2xl object-contain"
             />
             <p className="text-white text-center mt-4 text-lg">
