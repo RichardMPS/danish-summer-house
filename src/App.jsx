@@ -658,7 +658,7 @@ const DanishSummerHouse = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600">
-              All five star homeaway.co.uk reviews from 2014/2015
+              All five star reviews!
             </p>
           </div>
 
