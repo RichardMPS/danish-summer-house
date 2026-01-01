@@ -538,8 +538,7 @@ const DanishSummerHouse = () => {
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Large terrace</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Enclosed garden</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Garden furniture</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Garden recliners</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> BBQ (gas/charcoal)</li>
+                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Gas BBQ </li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Outdoor shower</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Bicycles</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Close to hiking paths</li>
@@ -554,11 +553,8 @@ const DanishSummerHouse = () => {
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Streaming service</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Washing machine</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Dryer</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Bathtub</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Board games</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Books</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Toys</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Desk & lamp</li>
+                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Bathtub</li>                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> </li>
+                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Board games. toys and books</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> First aid kit</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Smoke detector</li>
                 </ul>
