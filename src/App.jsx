@@ -357,7 +357,7 @@ const DanishSummerHouse = () => {
 
             <div className="bg-blue-50 p-8 rounded-2xl text-center">
               <Users className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-blue-900 mb-2">Sleeps 10+</h3>
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Sleeps 12</h3>
               <p className="text-gray-700">
                 4 bedrooms in main house plus 2-bedroom annexe
               </p>
