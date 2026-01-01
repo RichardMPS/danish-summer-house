@@ -385,7 +385,7 @@ const DanishSummerHouse = () => {
                     <Bed className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Main House - 4 Bedrooms</p>
-                      <p className="text-blue-100 text-sm">Master bedroom with super king bed and ensuite, 2 rooms with twin beds, 1 room with 4 bunk beds</p>
+                      <p className="text-blue-100 text-sm">Master bedroom with super king bed and ensuite, 1 room. with double bed, 2 rooms with twin beds</p>
                     </div>
                   </div>
 
@@ -393,7 +393,7 @@ const DanishSummerHouse = () => {
                     <Home className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Annexe - 2 Bedrooms</p>
-                      <p className="text-blue-100 text-sm">Completed last year, each with twin beds</p>
+                      <p className="text-blue-100 text-sm">2, bedrooms, each with twin beds, sitting room, kitchen</p>
                     </div>
                   </div>
 
@@ -409,7 +409,7 @@ const DanishSummerHouse = () => {
                     <Waves className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Bathrooms</p>
-                      <p className="text-blue-100 text-sm">Family bathroom, additional bathroom with sauna and steam shower</p>
+                      <p className="text-blue-100 text-sm">Master bedroom ensuite, family bathroom</p>
                     </div>
                   </div>
                 </div>
@@ -440,7 +440,7 @@ const DanishSummerHouse = () => {
                     <Anchor className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Beach Access</p>
-                      <p className="text-blue-100 text-sm">Direct access to the beach and stunning coastal walks</p>
+                      <p className="text-blue-100 text-sm">Direct access to the beach, walking distance (45 minutes) to Gilleleje</p>
                     </div>
                   </div>
 
@@ -448,7 +448,7 @@ const DanishSummerHouse = () => {
                     <MapPin className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Quiet Location</p>
-                      <p className="text-blue-100 text-sm">Secluded residential spot with privacy and tranquility</p>
+                      <p className="text-blue-100 text-sm">Secluded spot with privacy and tranquility</p>
                     </div>
                   </div>
                 </div>
