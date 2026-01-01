@@ -394,7 +394,7 @@ const DanishSummerHouse = () => {
                     <Bed className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Main House - 4 Bedrooms</p>
-                      <p className="text-blue-100 text-sm">Master bedroom with super king bed and ensuite, 2 rooms with twin beds, 1 room with 4 bunk beds</p>
+                      <p className="text-blue-100 text-sm">Master bedroom with superking bed and ensuite, 1 room with double bed, 2 rooms with twin beds</p>
                     </div>
                   </div>
 
@@ -402,7 +402,7 @@ const DanishSummerHouse = () => {
                     <Home className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Annexe - 2 Bedrooms</p>
-                      <p className="text-blue-100 text-sm">Completed last year, each with twin beds</p>
+                      <p className="text-blue-100 text-sm">Sitting room, kitchen, 2 bedrooms, each with twin beds</p>
                     </div>
                   </div>
 
@@ -418,7 +418,7 @@ const DanishSummerHouse = () => {
                     <Waves className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Bathrooms</p>
-                      <p className="text-blue-100 text-sm">Family bathroom, additional bathroom with sauna and steam shower</p>
+                      <p className="text-blue-100 text-sm">Ensuite and family bathroom</p>
                     </div>
                   </div>
                 </div>
@@ -432,8 +432,8 @@ const DanishSummerHouse = () => {
                   <div className="flex items-start gap-3">
                     <Trees className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
-                      <p className="font-semibold text-lg">Large Garden</p>
-                      <p className="text-blue-100 text-sm">Spacious outdoor area with beautiful landscaping</p>
+                      <p className="font-semibold text-lg">Large Terrace and Garden</p>
+                      <p className="text-blue-100 text-sm">Spacious outdoor dining area outdoor area, garden with views across to Hornbæk and Sweden</p>
                     </div>
                   </div>
 
@@ -441,7 +441,7 @@ const DanishSummerHouse = () => {
                     <Bike className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Recreation Facilities</p>
-                      <p className="text-blue-100 text-sm">Football pitch, ping pong table</p>
+                      <p className="text-blue-100 text-sm">Large lawn for ball games, ping pong table</p>
                     </div>
                   </div>
 
@@ -449,7 +449,7 @@ const DanishSummerHouse = () => {
                     <Anchor className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Beach Access</p>
-                      <p className="text-blue-100 text-sm">Direct access to the beach and stunning coastal walks</p>
+                      <p className="text-blue-100 text-sm">Direct access to the beach</p>
                     </div>
                   </div>
 
@@ -457,7 +457,7 @@ const DanishSummerHouse = () => {
                     <MapPin className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Quiet Location</p>
-                      <p className="text-blue-100 text-sm">Secluded residential spot with privacy and tranquility</p>
+                      <p className="text-blue-100 text-sm">Secluded beachfront retreat with privacy and tranquility</p>
                     </div>
                   </div>
                 </div>
@@ -469,9 +469,36 @@ const DanishSummerHouse = () => {
           <div className="bg-gray-50 p-12 rounded-3xl">
             <h3 className="text-3xl font-bold text-blue-900 mb-8 text-center">Rental Information</h3>
 
-            <div className="max-w-2xl mx-auto text-center">
-              <p className="text-xl text-gray-700">
-                Please contact us for pricing and availability.
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-8">
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-blue-200">
+                <div className="text-center">
+                  <p className="text-gray-600 mb-2">Main House + 2 Bedrooms Annexe</p>
+                  <p className="text-4xl font-bold text-blue-900 mb-4">DKK 15,000</p>
+                  <p className="text-gray-500">per week</p>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-blue-200">
+                <div className="text-center">
+                  <p className="text-gray-600 mb-2">Main House + 2 Bedrooms</p>
+                  <p className="text-4xl font-bold text-blue-900 mb-4">DKK 30,000</p>
+                  <p className="text-gray-500">per week (except Xmas/New Year)</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="max-w-2xl mx-auto space-y-3 text-gray-700">
+              <p className="flex items-start gap-2">
+                <span className="text-blue-600 font-bold">•</span>
+                <span>Mandatory cleaning charge: DKK 2,500</span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span className="text-blue-600 font-bold">•</span>
+                <span>Linens fee: DKK 150 per person</span>
+              </p>
+              <p className="flex items-start gap-2">
+                <span className="text-blue-600 font-bold">•</span>
+                <span>Available for much of the year - contact for availability</span>
               </p>
             </div>
           </div>
@@ -631,7 +658,7 @@ const DanishSummerHouse = () => {
             </h2>
             <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600">
-              All five star homeaway.co.uk reviews from 2014/2015
+              All five star reviews!
             </p>
           </div>
 
