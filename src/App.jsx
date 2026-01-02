@@ -58,7 +58,6 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/_MG_3135.jpg',
     '/danish-summer-house/images/_MG_3391-Edit.jpg',
     '/danish-summer-house/images/_MG_3465.jpg',
-    '/danish-summer-house/images/_MG_7971.jpg',
     '/danish-summer-house/images/_MG_8632.jpg',
     '/danish-summer-house/images/_RML7063-Edit.jpg',
     '/danish-summer-house/images/_RML7127.jpg',
