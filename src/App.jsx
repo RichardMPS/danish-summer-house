@@ -64,7 +64,6 @@ const DanishSummerHouse = () => {
     '/danish-summer-house/images/_RML7127.jpg',
     '/danish-summer-house/images/_RML9867.jpg',
     '/danish-summer-house/images/_RML9877.jpg',
-    '/danish-summer-house/images/_RML9887.jpg',
     '/danish-summer-house/images/_RML9889.jpg',
     '/danish-summer-house/images/20111020155401061.jpg',
     '/danish-summer-house/images/annexeplan.jpg',
@@ -420,7 +419,7 @@ const DanishSummerHouse = () => {
                     <Home className="w-6 h-6 text-blue-300 flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-lg">Annexe - 2 Bedrooms</p>
-                      <p className="text-blue-100 text-sm">Sitting room, kitchen, 2 bedrooms, each with twin beds</p>
+                      <p className="text-blue-100 text-sm">Sitting room, kitchen, 2 bedrooms, each with twin beds, bathroom</p>
                     </div>
                   </div>
 
@@ -554,8 +553,7 @@ const DanishSummerHouse = () => {
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Streaming service</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Washing machine</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Dryer</li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Bathtub</li>                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> </li>
-                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Board games. toys and books</li>
+                  <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Bathtub</li>                  
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> First aid kit</li>
                   <li className="flex items-start gap-2"><span className="text-blue-600">✓</span> Smoke detector</li>
                 </ul>
