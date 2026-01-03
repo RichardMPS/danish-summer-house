@@ -281,7 +281,7 @@ const DanishSummerHouse = () => {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/danish-summer-house/videos/hero-video.mp4" type="video/mp4" />
+            <source src="/videos/hero-video.mp4" type="video/mp4" />
           </video>
         </div>
 
@@ -583,7 +583,7 @@ const DanishSummerHouse = () => {
                 className="w-full h-full object-cover"
                 poster="/images/DJI_0212-3.jpg"
               >
-                <source src="/danish-summer-house/videos/hero-video.mp4" type="video/mp4" />
+                <source src="/videos/hero-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
