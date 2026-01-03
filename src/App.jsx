@@ -25,59 +25,59 @@ const DanishSummerHouse = () => {
   // Gallery images - EDIT THIS ARRAY to reorder, remove, or change photos
   // To reorder: move lines up/down, To remove: delete the line, To change title: edit the text
   const galleryImages = [
-    '/danish-summer-house/images/_a0a2586-2-edit.jpg',
-    '/danish-summer-house/images/_A0A2591-2-Edit 2.jpg',
-    '/danish-summer-house/images/_A0A2613-Pano.jpg',
-    '/danish-summer-house/images/_MG_2877-Edit-2-Edit.jpg',
-    '/danish-summer-house/images/_RML9849-HDR.jpg',
-    '/danish-summer-house/images/_MG_2945.jpg',
-    '/danish-summer-house/images/_A0A2903-Edit.jpg',
-    '/danish-summer-house/images/twinroombetter.jpg',
-    '/danish-summer-house/images/exbunkroombest.jpg',
-    '/danish-summer-house/images/_RML9851-HDR.jpg',
-    '/danish-summer-house/images/_A0A2907-Edit-2.jpg',
-    '/danish-summer-house/images/_A0A2919.jpg',
-    '/danish-summer-house/images/_A0A2929.jpg',
-    '/danish-summer-house/images/_a0a2931.jpg',
-    '/danish-summer-house/images/_A0A3414.jpg',
-    '/danish-summer-house/images/_A0A6778.jpg',
-    '/danish-summer-house/images/_A0A7144-Edit 2.jpg',
-    '/danish-summer-house/images/_A0A2607.jpg',
-    '/danish-summer-house/images/_A0A2894-Edit.jpg',
-    '/danish-summer-house/images/_A0A9530.jpg',
-    '/danish-summer-house/images/_A0A9528-2.jpg',
-    '/danish-summer-house/images/_A0A7246.jpg',
-    '/danish-summer-house/images/_A0A7264-HDR.jpg',
-    '/danish-summer-house/images/_A0A9631-2.jpg',
-    '/danish-summer-house/images/_MG_2850.jpg',
-    '/danish-summer-house/images/_MG_2863-Edit.jpg',
-    '/danish-summer-house/images/_MG_2898-Edit 2.jpg',
-    '/danish-summer-house/images/_MG_2955.jpg',
-    '/danish-summer-house/images/_MG_3014.jpg',
-    '/danish-summer-house/images/_MG_3135.jpg',
-    '/danish-summer-house/images/_MG_3391-Edit.jpg',
-    '/danish-summer-house/images/_MG_3465.jpg',
-    '/danish-summer-house/images/_MG_8632.jpg',
-    '/danish-summer-house/images/_RML7063-Edit.jpg',
-    '/danish-summer-house/images/_RML7127.jpg',
-    '/danish-summer-house/images/_RML9867.jpg',
-    '/danish-summer-house/images/_RML9877.jpg',
-    '/danish-summer-house/images/20111020155401061.jpg',
-    '/danish-summer-house/images/annexeplan.jpg',
-    '/danish-summer-house/images/DJI_0212-3.jpg',
-    '/danish-summer-house/images/IMG_1268.jpg',
-    '/danish-summer-house/images/IMG_1578.jpg',
-    '/danish-summer-house/images/IMG_5028.jpg',
-    '/danish-summer-house/images/IMG_9894.jpg',
-    '/danish-summer-house/images/Q1010029.jpg',
-    '/danish-summer-house/images/Q1010384.jpg',
-    '/danish-summer-house/images/Q1010388.jpg',
-    '/danish-summer-house/images/Q1010450-Edit-2.jpg',
-    '/danish-summer-house/images/RML07462.jpg',
-    '/danish-summer-house/images/RML08037.jpg',
-    '/danish-summer-house/images/Screenshot 2024-11-25 at 17.08.46.jpg',
-    '/danish-summer-house/images/Screenshot 2024-11-25 at 17.10.21.jpg',
-    '/danish-summer-house/images/SOLKROGENPHOTO.jpg'
+    '/images/_a0a2586-2-edit.jpg',
+    '/images/_A0A2591-2-Edit 2.jpg',
+    '/images/_A0A2613-Pano.jpg',
+    '/images/_MG_2877-Edit-2-Edit.jpg',
+    '/images/_RML9849-HDR.jpg',
+    '/images/_MG_2945.jpg',
+    '/images/_A0A2903-Edit.jpg',
+    '/images/twinroombetter.jpg',
+    '/images/exbunkroombest.jpg',
+    '/images/_RML9851-HDR.jpg',
+    '/images/_A0A2907-Edit-2.jpg',
+    '/images/_A0A2919.jpg',
+    '/images/_A0A2929.jpg',
+    '/images/_a0a2931.jpg',
+    '/images/_A0A3414.jpg',
+    '/images/_A0A6778.jpg',
+    '/images/_A0A7144-Edit 2.jpg',
+    '/images/_A0A2607.jpg',
+    '/images/_A0A2894-Edit.jpg',
+    '/images/_A0A9530.jpg',
+    '/images/_A0A9528-2.jpg',
+    '/images/_A0A7246.jpg',
+    '/images/_A0A7264-HDR.jpg',
+    '/images/_A0A9631-2.jpg',
+    '/images/_MG_2850.jpg',
+    '/images/_MG_2863-Edit.jpg',
+    '/images/_MG_2898-Edit 2.jpg',
+    '/images/_MG_2955.jpg',
+    '/images/_MG_3014.jpg',
+    '/images/_MG_3135.jpg',
+    '/images/_MG_3391-Edit.jpg',
+    '/images/_MG_3465.jpg',
+    '/images/_MG_8632.jpg',
+    '/images/_RML7063-Edit.jpg',
+    '/images/_RML7127.jpg',
+    '/images/_RML9867.jpg',
+    '/images/_RML9877.jpg',
+    '/images/20111020155401061.jpg',
+    '/images/annexeplan.jpg',
+    '/images/DJI_0212-3.jpg',
+    '/images/IMG_1268.jpg',
+    '/images/IMG_1578.jpg',
+    '/images/IMG_5028.jpg',
+    '/images/IMG_9894.jpg',
+    '/images/Q1010029.jpg',
+    '/images/Q1010384.jpg',
+    '/images/Q1010388.jpg',
+    '/images/Q1010450-Edit-2.jpg',
+    '/images/RML07462.jpg',
+    '/images/RML08037.jpg',
+    '/images/Screenshot 2024-11-25 at 17.08.46.jpg',
+    '/images/Screenshot 2024-11-25 at 17.10.21.jpg',
+    '/images/SOLKROGENPHOTO.jpg'
     
   ];
 
@@ -120,42 +120,42 @@ const DanishSummerHouse = () => {
       title: "Gilleleje Town",
       description: "Charming fishing village with restaurants, harbor fish cafes, and shops. Just 10 minutes away.",
       distance: "5 km",
-      image: "/danish-summer-house/images/Gilleleje-Town.jpg"
+      image: "/images/Gilleleje-Town.jpg"
     },
     {
       icon: Building,
       title: "Hornbæk Beach",
       description: "Beautiful sandy beach with cafes and water sports. Perfect for families.",
       distance: "8 km",
-      image: "/danish-summer-house/images/Hornbaek.jpg"
+      image: "/images/Hornbaek.jpg"
     },
     {
       icon: Compass,
       title: "Louisiana Museum",
       description: "World-renowned modern art museum with stunning sea views and sculpture gardens.",
       distance: "25 km",
-      image: "/danish-summer-house/images/Louisiana.jpg"
+      image: "/images/Louisiana.jpg"
     },
     {
       icon: Building,
       title: "Kronborg Castle",
       description: "UNESCO World Heritage Site - Hamlet's castle in Helsingør.",
       distance: "20 km",
-      image: "/danish-summer-house/images/kronborg-Castle.jpg"
+      image: "/images/kronborg-Castle.jpg"
     },
     {
       icon: Building,
       title: "Copenhagen",
       description: "Denmark's vibrant capital city with historic landmarks, world-class museums, and colorful Nyhavn harbor.",
       distance: "60 km",
-      image: "/danish-summer-house/images/Copenhagen.jpg"
+      image: "/images/Copenhagen.jpg"
     },
     {
       icon: Bike,
       title: "Cycling Routes",
       description: "Scenic coastal cycling paths through charming villages and countryside.",
       distance: "On doorstep",
-      image: "/danish-summer-house/images/cycling-routes.jpg"
+      image: "/images/cycling-routes.jpg"
     }
   ];
 
@@ -389,7 +389,7 @@ const DanishSummerHouse = () => {
           {/* Featured Property Image */}
           <div className="mb-16">
             <img
-              src="/danish-summer-house/images/SolkrogenHeroShot.jpg"
+              src="/images/SolkrogenHeroShot.jpg"
               alt="Beachfront summer house garden with sea views - Danish Summer House North Zealand"
               className="w-full h-auto rounded-3xl shadow-2xl"
             />
@@ -581,7 +581,7 @@ const DanishSummerHouse = () => {
               <video
                 controls
                 className="w-full h-full object-cover"
-                poster="/danish-summer-house/images/DJI_0212-3.jpg"
+                poster="/images/DJI_0212-3.jpg"
               >
                 <source src="/danish-summer-house/videos/hero-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
