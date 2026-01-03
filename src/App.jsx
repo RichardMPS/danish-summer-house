@@ -774,55 +774,21 @@ const DanishSummerHouse = () => {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-blue-900 mb-6">Contact us:</h3>
               <p className="text-gray-600 mb-8">Please fill in the boxes on this page</p>
+              
+              <div className="text-center py-8">
+  <p className="text-lg text-gray-700 mb-6">
+    For pricing, availability, and booking inquiries, please contact us:
+  </p>
+  <a
+    href="mailto:info@danishsummerhouse.com"
+    className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-medium text-lg"
+  >
+    Email: info@danishsummerhouse.com
+  </a>
+</div>
 
-              <form action="mailto:info@danishsummerhouse.com" method="post" encType="text/plain" className="space-y-4">
-                <div>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Your name *"
-                    required
-                    className="w-full px-4 py-3 bg-blue-900 text-white placeholder-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
 
-                <div>
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Your email *"
-                    required
-                    className="w-full px-4 py-3 bg-blue-900 text-white placeholder-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
 
-                <div>
-                  <input
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                    className="w-full px-4 py-3 bg-blue-900 text-white placeholder-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  />
-                </div>
-
-                <div>
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    rows="6"
-                    className="w-full px-4 py-3 bg-blue-900 text-white placeholder-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 resize-none"
-                  ></textarea>
-                </div>
-
-                <div className="text-right">
-                  <button
-                    type="submit"
-                    className="bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors"
-                  >
-                    Send
-                  </button>
-                </div>
-              </form>
 
               <div className="mt-8 pt-8 border-t border-gray-200">
                 <p className="text-gray-700 mb-2">
