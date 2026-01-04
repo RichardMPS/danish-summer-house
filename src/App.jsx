@@ -31,13 +31,14 @@ const DanishSummerHouse = () => {
     '/images/_MG_2877-Edit-2-Edit.jpg',
     '/images/_RML9849-HDR.jpg',
     '/images/_MG_2945.jpg',
-    '/images/_A0A2903-Edit.jpg',
+    '/images/solkrogenbedroom2.jpg',
     '/images/twinroombetter.jpg',
     '/images/exbunkroombest.jpg',
     '/images/_RML9851-HDR.jpg',
     '/images/_A0A2907-Edit-2.jpg',
     '/images/_A0A2919.jpg',
     '/images/_A0A2929.jpg',
+    '/images/_A0A2903-Edit.jpg',
     '/images/_a0a2931.jpg',
     '/images/_A0A3414.jpg',
     '/images/_A0A6778.jpg',
@@ -774,7 +775,7 @@ const DanishSummerHouse = () => {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-blue-900 mb-6">Contact us:</h3>
               <p className="text-gray-600 mb-8">Please fill in the boxes on this page</p>
-              
+
               <div className="text-center py-8">
   <p className="text-lg text-gray-700 mb-6">
     For pricing, availability, and booking inquiries, please contact us:
